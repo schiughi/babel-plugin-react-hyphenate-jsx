@@ -1,0 +1,36 @@
+{
+  "name": "babel-plugin-react-hyphenate-jsx",
+  "version": "0.0.1",
+  "description": "Turn JSX with hypen-case into camelCase",
+  "repository": "https://github.com/schiughi/babel-plugin-react-hyphenate-jsx",
+  "main": "index.js",
+  "keywords": [
+    "babel-plugin"
+  ],
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint"
+  },
+  "author": "schiughi",
+  "license": "MIT",
+  "peerDependencies": {
+    "@babel/core": "^7.1.2"
+  },
+  "dependencies": {
+    "@babel/helper-builder-react-jsx": "^7.0.0",
+    "@babel/helper-plugin-utils": "^7.0.0",
+    "@babel/plugin-syntax-jsx": "^7.0.0",
+    "@babel/preset-react": "^7.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/node": "^7.0.0",
+    "@babel/preset-env": "^7.1.0",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "^23.6.0",
+    "eslint": "^5.6.1",
+    "jest": "^23.6.0",
+    "react": "^16.5.2",
+    "regenerator-runtime": "^0.12.1"
+  }
+}
