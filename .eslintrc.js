@@ -1,6 +1,7 @@
 module.exports = {
     extends: ["eslint:recommended"],
     plugins: [],
+    parser: "babel-eslint",
     parserOptions: {
         ecmaVersion: 6,
         sourceType: "module",
